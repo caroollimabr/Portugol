@@ -5,8 +5,6 @@ programa
 	{
 		cadeia nacionalidade = ""
 
-		
-
 		enquanto (nacionalidade != "Brasil" e nacionalidade != "Alemanha" e nacionalidade != "Inglaterra" e 
 		nacionalidade != "Itália" e nacionalidade != "Italia" e nacionalidade != "Espanha" e nacionalidade != "Franca"
 		e nacionalidade != "França" e nacionalidade != "Espanha"){
@@ -27,7 +25,7 @@ programa
 			escreva ("\nVocê fala inglês.")
 		}
 
-		senao se (nacionalidade == "Itália" e nacionalidade == "Italia") {
+		senao se (nacionalidade == "Itália" ou nacionalidade == "Italia") {
 			escreva ("\nVocê fala italiano.")
 		}
 
@@ -35,11 +33,11 @@ programa
 			escreva ("\nVocê fala espanhol.")
 		}
 
-		senao se (nacionalidade == "França" e nacionalidade == "Franca"){
+		senao se (nacionalidade == "França" ou nacionalidade == "Franca"){
 			escreva ("\nVocê fala francês.")
 			
 		} senao {
-			escreva ("\nNacionalidade inválida.\n")
+			escreva ("\nNacionalidade inválida.")
 		}
 	}
 }
@@ -49,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1062; 
+ * @POSICAO-CURSOR = 101; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
